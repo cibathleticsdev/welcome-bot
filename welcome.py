@@ -17,7 +17,7 @@ import random
 import site
 import sys #pip install sys / pip3 install sys
 # hide config.py
-sys.path.insert(0, '/home/dietpi/discord')
+sys.path.insert(0, '/home/dietpi/discord/welcomebot')
 
 client = discord.Client()
 
