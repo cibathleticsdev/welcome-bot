@@ -24,7 +24,7 @@ client = discord.Client()
 @client.event
 async def on_member_join(member):
     print("Recognised that a member called " + member.name + " joined")
-    await client.send_message(member, 'Welcome to the official CADevelopers discord server, ' + member.mention + '! I\'m Welcome Bot, a bot and assistant of Archie, the official CADevelopers discord bot. Nice to meet you! Please, read our #rules and #about in our discord server https://discord.gg/TS583KK.)
+    await client.send_message(member, 'Welcome to the official CADevelopers discord server, ' + member.mention + '! I\'m Welcome Bot, a bot and assistant of Archie, the official CADevelopers discord bot. Nice to meet you! Please, read our #rules and #about in our discord server https://discord.gg/TS583KK.')
     print("Message sent to " + member.name)
 
 @client.event
